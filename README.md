@@ -60,6 +60,10 @@ minikube delete
 
 ## 📸 Screenshot
 
+![Screenshot 2025-04-14 174502](https://github.com/user-attachments/assets/6361f5a3-375d-4aaf-a078-fa99754312fe)
+![Screenshot 2025-04-14 175030](https://github.com/user-attachments/assets/6cc9dfe9-cd86-499d-b013-aee6dddc282e)
+![Screenshot 2025-04-14 174701](https://github.com/user-attachments/assets/728ffc36-6011-41fe-9fae-6c21c0addc7a)
+![Screenshot 2025-04-14 174815](https://github.com/user-attachments/assets/3ee5a644-7ed9-4f16-b302-e662ed1f2ed5)
 ![Screenshot 2025-04-14 175233](https://github.com/user-attachments/assets/12629704-1687-438b-96aa-c3c506fe4b3d)
 
 
