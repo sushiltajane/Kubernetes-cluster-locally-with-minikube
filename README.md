@@ -23,37 +23,44 @@ This repository demonstrates a basic Kubernetes setup using **Minikube** to depl
 
 ### 1. Start Minikube
 
-```bash
 minikube start --driver=docker
-2. Deploy Resources
-bash
-Copy
-Edit
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-3. Check Deployment Status
-bash
-Copy
-Edit
-kubectl get pods
-kubectl get svc
-4. Access the Application
-bash
-Copy
-Edit
+
+### 2. Deploy Resources
+
+kubectl apply -f deployment.yaml kubectl apply -f service.yaml
+
+### 3. Check Deployment Status
+
+kubectl get pods kubectl get svc
+
+### 4. Access the Application
+
 minikube service my-service
-This will open the app in your browser via NodePort.
 
-🧹 Teardown
-To stop and delete the cluster:
+> This will open the Nginx app in your browser via NodePort.
 
-bash
-Copy
-Edit
+---
+
+## 🧹 Teardown
+
+To delete the cluster and free resources:
+
 minikube delete
-✅ Requirements
-Docker
 
-Minikube
 
-kubectl
+---
+
+## ✅ Requirements
+
+- [Docker](https://www.docker.com/)  
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/)  
+- [kubectl](https://kubernetes.io/docs/tasks/tools/)  
+
+---
+
+## 📸 Screenshot
+
+![Screenshot 2025-04-14 175233](https://github.com/user-attachments/assets/12629704-1687-438b-96aa-c3c506fe4b3d)
+
+
+
